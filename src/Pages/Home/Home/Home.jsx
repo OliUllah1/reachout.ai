@@ -1,9 +1,11 @@
 import React from 'react';
+import InformationBar from '../InformationBar/InformationBar';
+
 
 const Home = () => {
     return (
         <div className='p-5'>
-            <h1>home</h1>
+            <InformationBar></InformationBar>
         </div>
     );
 };

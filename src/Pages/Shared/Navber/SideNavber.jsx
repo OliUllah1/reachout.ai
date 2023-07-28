@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { FaRegFolder,FaRegHandshake,FaRegFileAlt,FaRegComments,FaSearch,FaThLarge,FaUserCheck } from "react-icons/fa";
 const SideNavber = () => {
     return (
-        <div className='pl-2 pr-4 pt-5'>
+        <div className='pl-2 pr-4 py-5'>
         
            <button className='w-full flex items-center justify-center bg-green-400 py-1 rounded-full text-white text-md'>Create Now Job <p className=' text-white px-2 text-3xl'>+</p></button>
             <ul className='text-gray-600 mt-5 mb-14'>
