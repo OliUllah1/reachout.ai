@@ -8,10 +8,10 @@ const Main = () => {
         <div>
             <Navber></Navber>
             <div className='flex'>
-                <div className='w-[18%] h-[100vh]'>
+                <div className='w-[20%] h-[100vh]'>
                     <SideNavber></SideNavber>
                 </div>
-                <div className='w-[86%] h-[700px] bg-[#eff4fa]'><Outlet></Outlet></div>
+                <div className='w-[80%] h-[700px] bg-[#eff4fa]'><Outlet></Outlet></div>
             </div>
             
         </div>
