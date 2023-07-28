@@ -5,7 +5,7 @@ import MyJobs from '../MyJobs/MyJobs';
 
 const Home = () => {
     return (
-        <div className='p-5'>
+        <div className='lg:p-5 p-2'>
             <InformationBar></InformationBar>
             <MyJobs></MyJobs>
         </div>

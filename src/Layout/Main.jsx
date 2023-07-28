@@ -7,11 +7,14 @@ const Main = () => {
     return (
         <div>
             <Navber></Navber>
-            <div className='flex'>
+            <div className='hidden lg:flex'>
                 <div className='w-[20%] h-[100vh]'>
                     <SideNavber></SideNavber>
                 </div>
                 <div className='w-[80%] h-[700px] bg-[#eff4fa]'><Outlet></Outlet></div>
+            </div>
+            <div className='black lg:hidden bg-[#eff4fa]'>
+            <Outlet></Outlet>
             </div>
             
         </div>

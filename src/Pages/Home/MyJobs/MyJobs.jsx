@@ -6,7 +6,7 @@ import JobManagement from '../JobManagement/JobManagement';
 const MyJobs = () => {
     return (
         <Tabs>
-        <TabList className="flex w-full justify-between text-gray-600 font-semibold">
+        <TabList className="lg:flex w-full justify-between text-gray-600 font-semibold">
           <Tab  className="pr-8 pl-5 py-4 rounded-lg cursor-pointer">
           Job management
           </Tab>

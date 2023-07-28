@@ -4,8 +4,8 @@ const JobManagement = () => {
     return (
         <div className='bg-white w-full h-full px-5'>
             <form  action="">
-                <div className='flex gap-5'>
-                <div className='w-[45%]'>
+                <div className='lg:flex gap-5'>
+                <div className= 'w-full lg:w-[45%]'>
                 <div className="form-control">
                     <label className="label">
                         <span className="font-bold text-gray-600">Job Title</span>
@@ -64,7 +64,7 @@ const JobManagement = () => {
                     </select>
                 </div>
                 </div>
-                <div className='w-[55%]'>
+                <div className='lg:w-[55%] w-full'>
 
                     <div className="w-full mt-3">
                         <p className='font-bold text-gray-500 mb-3'>Upload your Job Description</p>
