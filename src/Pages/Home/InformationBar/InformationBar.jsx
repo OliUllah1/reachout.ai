@@ -2,7 +2,7 @@ import React from 'react';
 import { FaRegSun,FaChevronDown  } from "react-icons/fa";
 const InformationBar = () => {
     return (
-        <div className='flex text-gray-600 justify-between bg-white px-4 py-3 rounded'>
+        <div className='flex mb-5 text-gray-600 justify-between bg-white px-4 py-3 rounded'>
             <div> 
                 <p className=''>Job Title</p>
                 <div className='flex gap-3 items-center'>
